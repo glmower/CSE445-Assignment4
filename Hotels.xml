@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Hotels xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        xsi:noNamespaceSchemaLocation="Hotels.xsd">
+<Hotels xmlns="https://glmower.github.io/CSE445-Assignment4/Hotels.xsd"
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xsi:schemaLocation="https://glmower.github.io/CSE445-Assignment4/Hotels.xsd">
 
   <Hotel Rating="4.2">
     <Name>Westin</Name>
