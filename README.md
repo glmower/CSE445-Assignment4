@@ -1,1 +1,2 @@
 # CSE445-Assignment4
+The aim of this project is to make sure that you understand and are familiar with the concepts covered in the lectures, including XML elements, attributes, statements, XML schema, XML validation, XML transformation (XSL), and the related library classes. By the end of the project, you should have applied these concepts and techniques in creating an XML file, its schema, its style sheet, and have written Web services and an SOA application to process these files.
