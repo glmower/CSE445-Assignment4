@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- The root element name is Hotel, instead of Hotels -->
+<Hotel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="Hotels.xsd">
+
+<!-- A required attribute is missing -->
+  <Hotel Rating="4.2">
+    <Name>Westin</Name>
+    <Phone>480-968-8885</Phone>
+    <Phone>800-937-8461</Phone>
+    <Address>
+      <Number>11</Number>
+      <Street>E 7th St</Street>
+      <City>Tempe</City>
+      <State>AZ</State>
+      <Zip>85281</Zip>
+    </Address>
+  </Hotel>
+
+<!-- A Phone element is missing on one of the hotels -->
+  <Hotel Rating="4.5">
+    <Name>Hilton Garden Inn</Name>
+    <Address NearestAirport="Sky Harbor">
+      <Number>15</Number>
+      <Street>W 6th St</Street>
+      <City>Tempe</City>
+      <State>AZ</State>
+      <Zip>85281</Zip>
+    </Address>
+  </Hotel>
+
+<!-- An Address element has no closing tag -->
+  <Hotel>
+    <Name>Marriott Phoenix</Name>
+    <Phone>602-273-7373</Phone>
+    <Address NearestAirport="Sky Harbor">
+      <Number>100</Number>
+      <Street>E Adams St</Street>
+      <City>Phoenix</City>
+      <State>AZ</State>
+      <Zip>85004</Zip>
+  </Hotel>
+
+<!-- Two names are provided for one of the hotels -->
+  <Hotel Rating="3.8">
+    <Name>Holiday Inn Express</Name>
+    <Name>Holiday Inn Express Downtown</Name>
+    <Phone>602-453-9900</Phone>
+    <Address NearestAirport="Sky Harbor">
+      <Number>3401</Number>
+      <Street>E University Dr</Street>
+      <City>Phoenix</City>
+      <State>AZ</State>
+      <Zip>85034</Zip>
+    </Address>
+  </Hotel>
+
+  <Hotel Rating="4.0">
+    <Name>Hyatt Place Tempe</Name>
+    <Phone>480-804-9544</Phone>
+    <Address NearestAirport="Sky Harbor">
+      <Number>1413</Number>
+      <Street>W Rio Salado Pkwy</Street>
+      <City>Tempe</City>
+      <State>AZ</State>
+      <Zip>85281</Zip>
+    </Address>
+  </Hotel>
+
+  <Hotel>
+    <Name>AC Hotel Downtown Phoenix</Name>
+    <Phone>602-888-3000</Phone>
+    <Address NearestAirport="Sky Harbor">
+      <Number>414</Number>
+      <Street>N 5th St</Street>
+      <City>Phoenix</City>
+      <State>AZ</State>
+      <Zip>85004</Zip>
+    </Address>
+  </Hotel>
+
+  <Hotel Rating="4.7">
+    <Name>Canopy by Hilton Scottsdale</Name>
+    <Phone>480-590-3864</Phone>
+    <Address NearestAirport="Sky Harbor">
+      <Number>7142</Number>
+      <Street>E 1st St</Street>
+      <City>Scottsdale</City>
+      <State>AZ</State>
+      <Zip>85251</Zip>
+    </Address>
+  </Hotel>
+
+  <Hotel Rating="3.9">
+    <Name>Comfort Suites Airport</Name>
+    <Phone>480-446-9500</Phone>
+    <Address NearestAirport="Sky Harbor">
+      <Number>1625</Number>
+      <Street>S 52nd St</Street>
+      <City>Tempe</City>
+      <State>AZ</State>
+      <Zip>85281</Zip>
+    </Address>
+  </Hotel>
+
+  <Hotel Rating="4.3">
+    <Name>Courtyard by Marriott Mesa</Name>
+    <Phone>480-461-3000</Phone>
+    <Address NearestAirport="Sky Harbor">
+      <Number>1221</Number>
+      <Street>S Westwood</Street>
+      <City>Mesa</City>
+      <State>AZ</State>
+      <Zip>85210</Zip>
+    </Address>
+  </Hotel>
+
+  <Hotel>
+    <Name>Hampton Inn Chandler</Name>
+    <Phone>480-753-5200</Phone>
+    <Address NearestAirport="Sky Harbor">
+      <Number>7333</Number>
+      <Street>W Detroit St</Street>
+      <City>Chandler</City>
+      <State>AZ</State>
+      <Zip>85226</Zip>
+    </Address>
+  </Hotel>
+
+  <Hotel Rating="4.3">
+    <Name>Omni Tempe Hotel at ASU</Name>
+    <Phone>602-794-8600</Phone>
+    <Address NearestAirport="Sky Harbor">
+      <Number>7</Number>
+      <Street>E University Dr</Street>
+      <City>Tempe</City>
+      <State>AZ</State>
+      <Zip>85281</Zip>
+    </Address>
+  </Hotel>
+
+</Hotels>
